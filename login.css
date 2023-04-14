@@ -100,3 +100,30 @@ input:focus {
     color:grey;
    }
 
+/* footer  */
+
+
+.navbar-link:hover {
+    color: #000;
+  }
+  
+  #footer {
+    padding: 5% 15%;
+  }
+  
+  .icon1 {
+    margin: 5px;
+  }
+  
+  .copy {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: -89px;
+  }
+  
+  .mailbtn2 {
+  
+    text-decoration: none;
+    color: grey;
+  }
+  
