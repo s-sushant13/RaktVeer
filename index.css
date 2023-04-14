@@ -83,7 +83,7 @@ body {
 
 /* testimonials */
 #testimonials {
-  background-color: #e6ddc4;
+  /* background-color: #e6ddc4; */
   padding: 7% 15%;
   text-align: center;
 }
@@ -192,4 +192,9 @@ body {
   background-color: white;
   display: none;
   overflow: hidden;
+}
+.test{
+  padding-top: -10px;
+  text-transform: capitalize;
+   font-family: cursive;
 }
