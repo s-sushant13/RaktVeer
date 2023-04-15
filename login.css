@@ -21,6 +21,7 @@
     color: grey;
     margin: 20px;
 }
+
 .navbar-link:hover{
   color: black;
 }
@@ -32,6 +33,7 @@
     margin: 5px;
    
 }
+
 .copy{
     text-align: center;
     margin-top: 40px;
@@ -42,22 +44,7 @@
   
   padding: 20px;
 }
-.main-page{
-    padding-top: 4rem;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    outline: 2px solid;
-    width: 30%;
-    height: max-content;
-    padding: 1.5rem;
-    margin-bottom: 2rem;
-    border-radius: 30px;
-    margin-top: 5rem;
-    background-color: #B7C4CF;
-    /* background-color:   #6ba4c7; */
-  
-}
+
 .heading-section{
     font-size: 25px;
     text-align: center;
@@ -78,21 +65,7 @@ input:focus {
 }
 
 
-.buttonClass {
-    font-size: 17px;
-    margin-top: 40px;
-    margin-bottom: 10px;
-    width: 100px;
-    height: 40px;
-    border-width: 1px;
-    color: #000;
-    border-radius: 10px;
-    text-shadow: 0px 1px 0px #051881;
-    background: linear-gradient(#002bdc, #32ded4);
-}
-.buttonClass:hover{
-    background: linear-gradient(#32ded4, #002bdc);
-}
+
 
 .mailbtn2{
  
@@ -109,6 +82,7 @@ input:focus {
   
   #footer {
     padding: 5% 15%;
+    background-color: #ebe9e9;
   }
   
   .icon1 {
@@ -126,4 +100,34 @@ input:focus {
     text-decoration: none;
     color: grey;
   }
+
   
+  
+.body {
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #f5f5f5;
+}
+
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
